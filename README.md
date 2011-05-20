@@ -21,7 +21,8 @@ Installation from an Archive
 ----------------------------
 
 If you have downloaded an archive, unpack it somewhere under your web server
-root directory.
+root directory and create log and cache directories. You must change permissions
+to 775.
 
 If you have downloaded an archive without the vendors, run the
 `bin/vendors.sh` script (`git` must be installed on your machine). If you
